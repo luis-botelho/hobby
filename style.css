@@ -2,10 +2,16 @@
     margin: 0;
     padding: 0;
 }
-section{
-    background-color:gray;
+body{
+    background-color: gray;
+}
+#video{
+    text-align: center;
+}
+/*========================Modalidades======================= */
+#modalities{
     display: flex;
-   
+    flex-direction: column;
 }
 .articleHeader{
     background-color: aliceblue;
@@ -13,31 +19,15 @@ section{
     text-align: center;
 }
 .articleHeader img{
-    width: 50vw;
+    width: 40vw;
     border-radius: 20px;
 }
-.sideMenu{
-    width: 100px;
-    text-align: center;
-    border: 20px;
-    background-color: aquamarine;
-    border-radius: 20px;
-
-}
-.sideMenu li{
-    margin: 2px;
-    padding: 3px;
-    border-radius: 20px;
-    background-color: white;
-    text-align: center;
-}
-section ul{
+#modalities ul{
     margin: 20px;
-    list-style: none;
-    
+    list-style: none; 
+    display: flex;
 }
 .card h3{
-    
     border-radius: 20px;
     background-color: aquamarine;
 }
@@ -47,16 +37,16 @@ section ul{
     border-radius: 20px;
     background-color: white;
     text-align: center;
-    width: 60vw;
-    
-
-}.card p{
+    width: 40vw;
+}
+.card p{
     padding: 20px;
 }
-/* section ul li :hover{
+/* .card :hover{
     margin: 2px;
     padding: 3px;
     border-radius: 20px;
     background-color: blue;
     text-align: center;
 } */
+/*========================Modalidades======================= */
